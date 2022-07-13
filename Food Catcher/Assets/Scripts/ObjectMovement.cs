@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Food : MonoBehaviour
+public class ObjectMovement : MonoBehaviour
 {
     public float speed = 10f;
     private Rigidbody2D rb;
@@ -21,13 +21,6 @@ public class Food : MonoBehaviour
     void Update()
     {
         if(transform.position.y < -screenBounds.y * 2){
-            Destroy(this.gameObject);
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D other) {
-        if (other.gameObject.tag == "Player")
-        {
             Destroy(this.gameObject);
         }
     }

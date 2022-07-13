@@ -10,6 +10,8 @@ public class ItemSpawner : MonoBehaviour
 
     [Space(3)]
     public float theCountdown = 3;
+    [SerializeField] float maxCountdown = 1.5f;
+    [SerializeField] float minCountdown = 0.3f;
     
     // Start is called before the first frame update
     void Start()
@@ -26,7 +28,7 @@ public class ItemSpawner : MonoBehaviour
          {
             foods = theFoods [Random.Range (0, theFoods.Length)];
             SpawnFoods ();
-            theCountdown = Random.Range(0.1f, 1.5f);
+            theCountdown = Random.Range(minCountdown, maxCountdown);
          }
     }
 
