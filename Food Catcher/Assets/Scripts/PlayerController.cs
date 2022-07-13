@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private Rigidbody2D rbp;
     private Vector3 playerPos;
+    [SerializeField] GameManager manager;
 
     void Start() 
     {
@@ -23,15 +24,18 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetMouseButton(0))
         {
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            if(!manager.gameOver)
+            {
+                float mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
             playerPos = this.transform.position;
-            rbp.velocity = new Vector2((mousePos.x - playerPos.x) * moveSpeed, 0);
+            rbp.velocity = new Vector2((mousePos - playerPos.x) * moveSpeed, 0);
+            Debug.Log(mousePos);
+            }
         }
         else
         {
             rbp.velocity = new Vector2(0, 0);
         }
-        
 
     }
 }

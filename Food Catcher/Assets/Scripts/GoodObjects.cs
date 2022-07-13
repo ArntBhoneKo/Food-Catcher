@@ -9,7 +9,10 @@ public class GoodObjects : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {   
-            FindObjectOfType<GameManager>().AddToScore(scorePoint);
+            if (!FindObjectOfType<GameManager>().gameOver)
+            {
+                FindObjectOfType<GameManager>().AddToScore(scorePoint);
+            }
             Destroy(this.gameObject);
         }
     }

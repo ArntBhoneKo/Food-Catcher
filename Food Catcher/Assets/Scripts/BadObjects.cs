@@ -8,7 +8,10 @@ public class BadObjects : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<GameManager>().ProcessPlayerLife();
+            if (!FindObjectOfType<GameManager>().gameOver)
+            {
+                FindObjectOfType<GameManager>().ProcessPlayerLife();
+            }
             Destroy(this.gameObject);
         }
     }
