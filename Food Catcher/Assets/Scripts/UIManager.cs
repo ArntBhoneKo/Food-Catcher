@@ -12,6 +12,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject heartImg2;
     [SerializeField] GameObject heartImg3;
     [SerializeField] TextMeshProUGUI scoreText;
+    public TextMeshProUGUI currentTimeText;
+    [SerializeField] GameObject sadFace;
+    [SerializeField] GameObject loseScreen;
+    [SerializeField] GameObject winScreen;
 
     void Start() 
     {
@@ -60,5 +64,20 @@ public class UIManager : MonoBehaviour
     public void UpdateScore(int mark)
     {
         scoreText.text = mark.ToString();
+    }
+
+    public void MakeSadFace(bool sad)
+    {
+        sadFace.SetActive(sad);
+    }
+
+    public void LoseScreen(bool lose)
+    {
+        loseScreen.SetActive(lose);
+    }
+
+    public void WinScreen(bool win)
+    {
+        winScreen.SetActive(win);
     }
 }

@@ -8,25 +8,28 @@ public class GameManager : MonoBehaviour
     [SerializeField] int playerLives = 3;
     [SerializeField] int score = 0;
     [SerializeField] float loadDelay = 1f;
+    [SerializeField] float happyTime = 2f;
     public bool gameOver = false;
     [SerializeField] UIManager uiManager;
-    
-    void Awake()
-    {
-        int numGameManagers = FindObjectsOfType<GameManager>().Length;
-        if (numGameManagers > 1)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-        }
-    }
+    [SerializeField] Timer timer;
+    bool notSadNow = false;
+    bool buttonpressed = false;
 
     void Start() 
     {
         gameOver = false;
+        timer.StartStopwatch(true);
+    }
+
+    private void Update() 
+    {
+        if (timer.currentTime <= 0)
+        {
+            gameOver = true;
+
+            uiManager.WinScreen(true);
+        }
+        
     }
 
     public void ProcessPlayerLife()
@@ -37,10 +40,12 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            ResetLife();
-
-            //test
+            
             gameOver = true;
+
+            uiManager.UpdateHeart();
+            timer.StartStopwatch(false);
+            uiManager.LoseScreen(true);
         }
     }
 
@@ -50,9 +55,8 @@ public class GameManager : MonoBehaviour
         uiManager.UpdateHeart();
     }
 
-    void ResetLife()
+    public void ResetLife()
     {
-        uiManager.UpdateHeart();
         playerLives = 3;
         score = 0;
         StartCoroutine(ResetLevel());
@@ -60,18 +64,40 @@ public class GameManager : MonoBehaviour
 
     IEnumerator ResetLevel()
     {
+        if (buttonpressed)
+            yield break;
+
+        buttonpressed = true;
+
         yield return new WaitForSecondsRealtime(loadDelay);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
+        uiManager.WinScreen(false);
+        uiManager.LoseScreen(false);
         uiManager.ResetHeart();
-
-        //test
+        timer.ResetStopwatch();
+        timer.StartStopwatch(true);
         gameOver = false;
+        buttonpressed = false;
     }
 
     public void AddToScore(int pointsToAdd)
     {
         score += pointsToAdd;
         uiManager.UpdateScore(score);
+        StartCoroutine(HappyTime());
+    }
+
+    IEnumerator HappyTime()
+    {
+        if (notSadNow)
+            yield break;
+    
+        notSadNow = true;
+        uiManager.MakeSadFace(false);
+
+        yield return new WaitForSeconds(happyTime);
+        uiManager.MakeSadFace(true);
+        notSadNow = false;
     }
 }

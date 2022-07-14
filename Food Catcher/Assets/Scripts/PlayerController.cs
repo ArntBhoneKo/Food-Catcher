@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
                 float mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
             playerPos = this.transform.position;
             rbp.velocity = new Vector2((mousePos - playerPos.x) * moveSpeed, 0);
-            Debug.Log(mousePos);
             }
         }
         else
