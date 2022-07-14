@@ -15,7 +15,9 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI currentTimeText;
     [SerializeField] GameObject sadFace;
     [SerializeField] GameObject loseScreen;
+    [SerializeField] TextMeshProUGUI loseScore;
     [SerializeField] GameObject winScreen;
+    [SerializeField] TextMeshProUGUI winScore;
 
     void Start() 
     {
@@ -74,10 +76,12 @@ public class UIManager : MonoBehaviour
     public void LoseScreen(bool lose)
     {
         loseScreen.SetActive(lose);
+        loseScore.text = "You Got " + Mathf.Round(FindObjectOfType<GameManager>().score * 0.75f).ToString();
     }
 
     public void WinScreen(bool win)
     {
         winScreen.SetActive(win);
+        winScore.text = "You Got" + FindObjectOfType<GameManager>().score.ToString();
     }
 }

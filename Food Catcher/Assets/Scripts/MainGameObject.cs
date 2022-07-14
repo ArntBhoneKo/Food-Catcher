@@ -6,8 +6,8 @@ public class MainGameObject : MonoBehaviour
 {
     void Awake()
     {
-        int numGameManagers = FindObjectsOfType<GameManager>().Length;
-        if (numGameManagers > 1)
+        int numMainGameObject = FindObjectsOfType<MainGameObject>().Length;
+        if (numMainGameObject > 1)
         {
             Destroy(gameObject);
         }

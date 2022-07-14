@@ -10,7 +10,6 @@ public class ItemSpawner : MonoBehaviour
 
     [Space(3)]
     public float theCountdown = 3;
-    [SerializeField] GameManager manager;
     [SerializeField] float maxCountdown = 1.5f;
     [SerializeField] float minCountdown = 0.3f;
     
@@ -24,7 +23,7 @@ public class ItemSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!manager.gameOver)
+        if(!FindObjectOfType<GameManager>().gameOver)
         {
             theCountdown -= Time.deltaTime;
             if(theCountdown <= 0)

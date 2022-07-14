@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5390296172332521758}
   - component: {fileID: 8930502732095598157}
   m_Layer: 0
-  m_Name: Food 2
+  m_Name: Food 14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5390296172332521747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: -695075469
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -666192565, guid: 86df2121068aa914785fca6cc1794679, type: 3}
+  m_Sprite: {fileID: -2038439120, guid: c777b621aba24dc4f9e9ccee09f6a6ca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06407aeb46521e14585fb157000c573f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
 --- !u!114 &8930502732095598157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,4 +150,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63fedaf478c6774a8ad17b9cee1e0c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorePoint: 15
+  scorePoint: 20

@@ -1,0 +1,887 @@
+fileFormatVersion: 2
+guid: c777b621aba24dc4f9e9ccee09f6a6ca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sushis_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2220
+        width: 268
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367bcf39f2a35dc4bb63e89a25591e19
+      internalID: -796291515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 2227
+        width: 260
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bbb15885bb8aa47861dd5c5ee7168a
+      internalID: 13219951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_2
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 2233
+        width: 300
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b1be4c8eb5424a923ce3a0981605b
+      internalID: 2115180946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_3
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 2225
+        width: 253
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce5fb9e545c83f4b936e27854ce1656
+      internalID: -1686592639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1882
+        width: 248
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6854abbca5c9a4fad7de4920d80056
+      internalID: 1362929948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_6
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1882
+        width: 252
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a048ee96c78e61944b4a74c90b7c994c
+      internalID: 1678552218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1890
+        width: 300
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9330b2df4b41e409f67bfe5a0dacc6
+      internalID: -2038439120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_7
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1885
+        width: 262
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7338d0df7625c62489e29453d987677d
+      internalID: -1927259447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_11
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 1535
+        width: 345
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3c8b10d21471e419a3d02817adf585
+      internalID: -99449732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1543
+        width: 265
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691804d99abad5b4a9ba90ae888572c6
+      internalID: -1588368235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_10
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1534
+        width: 248
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399e37b1bfae6b04db03bf3c4a0f3829
+      internalID: -250888311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_9
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1544
+        width: 339
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f8a2498c1d8ff48bda196efe4eded6
+      internalID: 433005137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 730
+        width: 345
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa1b4551e49ff46b2a294a36d6e0cf
+      internalID: -2022896298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_13
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 768
+        width: 263
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e90c66d0c872314998a07d38068f7a9
+      internalID: 1737661365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 745
+        width: 270
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c2e434bbbc053499bf6fc884cbcefd
+      internalID: -1001071268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_17
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 416
+        width: 256
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08235432764cb9a4fb3203d1df39efca
+      internalID: 284430921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_16
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 426
+        width: 292
+        height: 235
+      alignment: 9
+      pivot: {x: 0.51841843, y: 0.4828359}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4302d132d593994ba559e864b9cf466
+      internalID: 801336048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 423
+        width: 255
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b52ec665eba414a8b3c12055a8ae1c
+      internalID: 2094563285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 128
+        width: 252
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dfe6fa19d7af04a849e0cc647b89ce
+      internalID: 911021909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sushis_19
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 118
+        width: 436
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89f82267cf54064cbe374671a784183
+      internalID: 434372773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sushis_248: -1348945230
+      Sushis_139: 1535522483
+      Sushis_159: -1329997720
+      Sushis_174: -2010401394
+      Sushis_51: -523819730
+      Sushis_273: 1784490888
+      Sushis_126: 882120027
+      Sushis_300: 544631943
+      Sushis_151: -1012403365
+      Sushis_38: -1912825389
+      Sushis_310: 1029937432
+      Sushis_320: -1850114530
+      Sushis_119: -1761442072
+      Sushis_98: -1061082122
+      Sushis_234: -2137347227
+      Sushis_54: -864720513
+      Sushis_134: 309876664
+      Sushis_202: 1617409563
+      Sushis_127: -1668615750
+      Sushis_100: 2057266643
+      Sushis_298: -803990436
+      Sushis_43: 108953157
+      Sushis_173: 277610024
+      Sushis_208: -1596667990
+      Sushis_14: -1001071268
+      Sushis_175: -1693228604
+      Sushis_73: 1240436587
+      Sushis_66: 388567686
+      Sushis_24: -133741784
+      Sushis_101: 1950361977
+      Sushis_183: -1468729097
+      Sushis_182: 1485191623
+      Sushis_294: 326230028
+      Sushis_106: 886637173
+      Sushis_67: -1935321723
+      Sushis_262: 78611955
+      Sushis_77: 782835422
+      Sushis_166: 727057833
+      Sushis_23: -547341321
+      Sushis_125: -2072344442
+      Sushis_197: -1868700845
+      Sushis_265: 302986803
+      Sushis_47: 1347957455
+      Sushis_19: 434372773
+      Sushis_185: 1008024415
+      Sushis_311: -354513499
+      Sushis_220: 443169654
+      Sushis_241: -1414051843
+      Sushis_302: 668814005
+      Sushis_107: 1654818857
+      Sushis_135: 122396129
+      Sushis_313: -1183944456
+      Sushis_259: 1820881351
+      Sushis_207: 1894400614
+      Sushis_309: 1138991325
+      Sushis_120: 2112158754
+      Sushis_142: -1425044546
+      Sushis_76: 285619041
+      Sushis_78: 1308499476
+      Sushis_48: -1557353078
+      Sushis_17: 284430921
+      Sushis_154: -2013072537
+      Sushis_212: -399022687
+      Sushis_143: 1061446756
+      Sushis_285: -871065044
+      Sushis_184: 1874777933
+      Sushis_328: 1510565589
+      Sushis_52: -286577535
+      Sushis_158: -720934132
+      Sushis_198: 713594189
+      Sushis_203: 405112013
+      Sushis_26: 502539723
+      Sushis_195: 642050471
+      Sushis_102: -820051167
+      Sushis_111: -1689967475
+      Sushis_11: -99449732
+      Sushis_172: -1670480653
+      Sushis_219: -238170393
+      Sushis_200: 128091372
+      Sushis_5: 1362929948
+      Sushis_94: 2142439735
+      Sushis_190: 973349259
+      Sushis_233: -1058619204
+      Sushis_256: 473894397
+      Sushis_282: 1825631880
+      Sushis_34: -1408834875
+      Sushis_155: 1180975779
+      Sushis_109: -4135280
+      Sushis_188: -524192762
+      Sushis_165: -820481882
+      Sushis_110: 1837129792
+      Sushis_116: 346878853
+      Sushis_249: -1828899183
+      Sushis_247: 1233397954
+      Sushis_193: -1355152858
+      Sushis_3: -1686592639
+      Sushis_276: -2003550549
+      Sushis_92: 615791129
+      Sushis_168: -1522493107
+      Sushis_218: -855701491
+      Sushis_318: 476079416
+      Sushis_169: -67564803
+      Sushis_269: -940987017
+      Sushis_64: 1284940723
+      Sushis_192: 1519122775
+      Sushis_232: 818583691
+      Sushis_149: -1590192634
+      Sushis_69: 1616273808
+      Sushis_103: 294941247
+      Sushis_30: -98735611
+      Sushis_136: 1276495953
+      Sushis_145: 1327563665
+      Sushis_150: 911819615
+      Sushis_29: 692152221
+      Sushis_153: 1014929266
+      Sushis_41: -1363273951
+      Sushis_80: -333661907
+      Sushis_161: 1796052872
+      Sushis_255: -899994453
+      Sushis_33: -1104248025
+      Sushis_91: 1936139284
+      Sushis_308: -1333937641
+      Sushis_62: -1376538329
+      Sushis_283: -696064263
+      Sushis_260: -569093163
+      Sushis_59: -655416255
+      Sushis_306: 1560821066
+      Sushis_229: 2128448445
+      Sushis_35: -1492267519
+      Sushis_317: 17969364
+      Sushis_314: 1402386585
+      Sushis_296: -462656038
+      Sushis_45: 871024137
+      Sushis_214: 476285913
+      Sushis_16: 801336048
+      Sushis_304: 1936802362
+      Sushis_330: 1444615952
+      Sushis_261: 805392481
+      Sushis_37: -808988664
+      Sushis_267: -1210638173
+      Sushis_179: -932292642
+      Sushis_50: -1566033047
+      Sushis_84: -855934639
+      Sushis_123: -414611574
+      Sushis_180: 1974701562
+      Sushis_299: 1442698686
+      Sushis_163: 1191263436
+      Sushis_315: -1063653355
+      Sushis_206: -1198159593
+      Sushis_133: -1966844405
+      Sushis_237: 799561576
+      Sushis_242: 298383544
+      Sushis_266: 999200073
+      Sushis_278: 1296232504
+      Sushis_27: 1660085696
+      Sushis_333: 1224904209
+      Sushis_22: -594477316
+      Sushis_305: 185442342
+      Sushis_176: 1470733801
+      Sushis_57: 620050356
+      Sushis_58: 1987232152
+      Sushis_148: -2138153069
+      Sushis_89: -380180670
+      Sushis_137: -1839388838
+      Sushis_130: 1867446193
+      Sushis_122: 1840023439
+      Sushis_329: 170010561
+      Sushis_316: 258515460
+      Sushis_221: 1496669610
+      Sushis_263: -1405850483
+      Sushis_0: -796291515
+      Sushis_178: 81256792
+      Sushis_95: 1130246412
+      Sushis_324: -768963708
+      Sushis_321: -1162309322
+      Sushis_331: -526485118
+      Sushis_226: -109633596
+      Sushis_327: 920991163
+      Sushis_251: -639931288
+      Sushis_334: 1164882170
+      Sushis_87: 855195635
+      Sushis_97: -400694759
+      Sushis_272: -57107496
+      Sushis_83: 1094085770
+      Sushis_99: 1113147418
+      Sushis_228: -1615646277
+      Sushis_79: -119011884
+      Sushis_213: -1934434779
+      Sushis_231: 965746352
+      Sushis_270: 1888974648
+      Sushis_7: -1927259447
+      Sushis_252: 1656092763
+      Sushis_144: -1448418374
+      Sushis_21: -905456022
+      Sushis_40: 1230339250
+      Sushis_244: -667278231
+      Sushis_257: -1762331031
+      Sushis_42: -746687886
+      Sushis_13: 1737661365
+      Sushis_279: -976292078
+      Sushis_335: 1570976553
+      Sushis_322: -977648838
+      Sushis_8: -1588368235
+      Sushis_82: 2086548973
+      Sushis_74: -1045804337
+      Sushis_160: 1138764906
+      Sushis_217: -394835237
+      Sushis_96: 886199017
+      Sushis_337: -361877027
+      Sushis_245: 474535531
+      Sushis_20: -747804000
+      Sushis_271: -436784336
+      Sushis_307: -287809437
+      Sushis_201: 846293147
+      Sushis_138: 656129524
+      Sushis_140: -154328420
+      Sushis_293: -1668821826
+      Sushis_264: 1549301908
+      Sushis_280: 1175272604
+      Sushis_39: 175005451
+      Sushis_319: -1754087269
+      Sushis_243: 459539410
+      Sushis_215: 76794535
+      Sushis_191: -833620767
+      Sushis_18: 911021909
+      Sushis_326: -1123651134
+      Sushis_15: 2094563285
+      Sushis_147: 1137955254
+      Sushis_93: -982166405
+      Sushis_205: 1838937817
+      Sushis_70: 1930252564
+      Sushis_225: 868515393
+      Sushis_216: 1687377474
+      Sushis_171: -864320288
+      Sushis_81: 2111896311
+      Sushis_56: 2035532973
+      Sushis_164: 1554810719
+      Sushis_10: -250888311
+      Sushis_281: 2019873253
+      Sushis_157: 1563428265
+      Sushis_85: 1068202851
+      Sushis_162: 876136434
+      Sushis_290: -562244781
+      Sushis_6: 1678552218
+      Sushis_1: 13219951
+      Sushis_49: 1731742101
+      Sushis_131: -1353626938
+      Sushis_170: -295881644
+      Sushis_71: -1817642523
+      Sushis_181: -1733509147
+      Sushis_323: -1214330969
+      Sushis_204: 35960380
+      Sushis_287: 1061090709
+      Sushis_292: -1840069443
+      Sushis_336: -1024245504
+      Sushis_104: -1932006544
+      Sushis_156: -151081871
+      Sushis_167: 1199674345
+      Sushis_114: -1058920906
+      Sushis_88: -258246297
+      Sushis_230: 1508734657
+      Sushis_224: -1135999636
+      Sushis_146: -449650643
+      Sushis_86: -367081671
+      Sushis_239: -841227227
+      Sushis_236: -823138301
+      Sushis_152: 413078045
+      Sushis_75: -80235204
+      Sushis_274: 862219644
+      Sushis_128: -568419533
+      Sushis_332: -1627551812
+      Sushis_240: -918103898
+      Sushis_28: 1775069564
+      Sushis_72: 1233489715
+      Sushis_129: 1273330640
+      Sushis_2: 2115180946
+      Sushis_223: -1410000345
+      Sushis_301: -1711510019
+      Sushis_277: 2042701645
+      Sushis_286: 235447076
+      Sushis_44: 196336288
+      Sushis_61: 1584319603
+      Sushis_31: -1677749040
+      Sushis_63: 352766129
+      Sushis_210: 991043500
+      Sushis_289: 2125349425
+      Sushis_227: 1993093298
+      Sushis_291: 196070547
+      Sushis_246: 1094699132
+      Sushis_275: -878700809
+      Sushis_235: -1798035335
+      Sushis_325: 573575508
+      Sushis_108: -2056814947
+      Sushis_238: 1033137338
+      Sushis_9: 433005137
+      Sushis_115: 251407970
+      Sushis_118: -1684255072
+      Sushis_199: -276744759
+      Sushis_288: -513385590
+      Sushis_124: -921038085
+      Sushis_187: 869956986
+      Sushis_121: 1088068137
+      Sushis_141: -287430877
+      Sushis_177: 956585674
+      Sushis_132: 1159611803
+      Sushis_186: 550313173
+      Sushis_312: -641861714
+      Sushis_32: 1607153916
+      Sushis_12: -2022896298
+      Sushis_4: -2038439120
+      Sushis_36: -901008658
+      Sushis_268: 1574061743
+      Sushis_68: -318763992
+      Sushis_196: -836157792
+      Sushis_253: 1308281201
+      Sushis_60: 1313842592
+      Sushis_90: -1575028945
+      Sushis_284: -406576391
+      Sushis_189: 185622241
+      Sushis_295: 1778423312
+      Sushis_194: 1156715586
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

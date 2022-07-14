@@ -1,0 +1,748 @@
+fileFormatVersion: 2
+guid: 86df2121068aa914785fca6cc1794679
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 600
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2100
+        width: 337
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78c8bd165032ef4ea3be9dc01cc1426
+      internalID: -1651900781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2092
+        width: 322
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e03874ec5ee1d4b922205b1460cb88
+      internalID: -1383442272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_3
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2093
+        width: 329
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20f731c451f0494a8741e4bab31844c
+      internalID: -1576606882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1723
+        width: 322
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6272604cf7677fb47adf8e912d19827a
+      internalID: 866762464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1733
+        width: 338
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f9fcf528720994cb8d1a04794cea5e
+      internalID: -1365802938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_6
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1727
+        width: 337
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418db755bb0ee894bb88569f3fd0679e
+      internalID: -340403173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1335
+        width: 331
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c387d443dd1a7494abd223bbafd5cf62
+      internalID: -1555415551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1335
+        width: 319
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0354d09b34a35ae4685872b52bdfacc2
+      internalID: -1621677969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1343
+        width: 337
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c5335a9423e734eb42245332ca5cbd
+      internalID: -666192565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_12
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 673
+        width: 315
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65fb6938c83d674186f78f166a86ff8
+      internalID: 1253964400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 675
+        width: 311
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1681431d04da60a44ab0240a91f98f35
+      internalID: -1769743600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_11
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 673
+        width: 329
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeae65c47ecad74aa27abfc04d96dac
+      internalID: -1135967081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_183
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 870
+        width: 4
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633c34b8886bf004b971153da9549fc0
+      internalID: 105420027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_184
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 780
+        width: 4
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773aa06e1f05c3145874cb8f6e5abb37
+      internalID: 1379463981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_13
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 30
+        width: 312
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5b78e1bdea37c41baac5e1168c5370
+      internalID: -240949940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 30
+        width: 312
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62e515a4f7ab864ba95b350a6da4b3e
+      internalID: 996717856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cupcakes and Yougart_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 34
+        width: 312
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84127f3ce056c47479ec8e832535b84d
+      internalID: 1757485431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cupcakes and Yougart_209: -1953651077
+      Cupcakes and Yougart_69: -734556832
+      Cupcakes and Yougart_207: -108234254
+      Cupcakes and Yougart_159: -1044206451
+      Cupcakes and Yougart_214: 1224218759
+      Cupcakes and Yougart_169: -1311975613
+      Cupcakes and Yougart_25: 598641603
+      Cupcakes and Yougart_83: 1073720142
+      Cupcakes and Yougart_228: 1541065540
+      Cupcakes and Yougart_115: 522556415
+      Cupcakes and Yougart_208: 363166130
+      Cupcakes and Yougart_217: -717160033
+      Cupcakes and Yougart_140: 1286569362
+      Cupcakes and Yougart_174: -1827271371
+      Cupcakes and Yougart_107: -1968657563
+      Cupcakes and Yougart_170: 2078859345
+      Cupcakes and Yougart_48: -500619331
+      Cupcakes and Yougart_201: 1175431716
+      Cupcakes and Yougart_196: 1067143254
+      Cupcakes and Yougart_124: 323258506
+      Cupcakes and Yougart_125: -1302963380
+      Cupcakes and Yougart_37: -892296991
+      Cupcakes and Yougart_172: 202487695
+      Cupcakes and Yougart_160: -1033610258
+      Cupcakes and Yougart_164: -1138917078
+      Cupcakes and Yougart_203: -1820527299
+      Cupcakes and Yougart_133: 182901645
+      Cupcakes and Yougart_192: -1024089406
+      Cupcakes and Yougart_241: 1066756127
+      Cupcakes and Yougart_178: 641144850
+      Cupcakes and Yougart_64: 1461348062
+      Cupcakes and Yougart_165: -1516036047
+      Cupcakes and Yougart_65: 1119948285
+      Cupcakes and Yougart_147: -1681615122
+      Cupcakes and Yougart_148: -1328986634
+      Cupcakes and Yougart_177: -1204379899
+      Cupcakes and Yougart_235: 1754829006
+      Cupcakes and Yougart_259: 84513716
+      Cupcakes and Yougart_167: 459491884
+      Cupcakes and Yougart_67: 1266556872
+      Cupcakes and Yougart_229: 1089473970
+      Cupcakes and Yougart_240: 1113369221
+      Cupcakes and Yougart_45: 1522476169
+      Cupcakes and Yougart_27: 1099787516
+      Cupcakes and Yougart_80: 979995170
+      Cupcakes and Yougart_185: -899630224
+      Cupcakes and Yougart_18: 1327998469
+      Cupcakes and Yougart_216: -83144821
+      Cupcakes and Yougart_237: -1772433029
+      Cupcakes and Yougart_204: -568267066
+      Cupcakes and Yougart_250: -1062103564
+      Cupcakes and Yougart_197: -1418728737
+      Cupcakes and Yougart_242: -575406926
+      Cupcakes and Yougart_82: -880100499
+      Cupcakes and Yougart_103: -883992408
+      Cupcakes and Yougart_255: 1434361331
+      Cupcakes and Yougart_19: -330803549
+      Cupcakes and Yougart_87: -1574933041
+      Cupcakes and Yougart_55: -641776336
+      Cupcakes and Yougart_141: 273087515
+      Cupcakes and Yougart_46: 1351745595
+      Cupcakes and Yougart_17: 1731740791
+      Cupcakes and Yougart_257: 1720426411
+      Cupcakes and Yougart_58: -1778123864
+      Cupcakes and Yougart_72: 928142343
+      Cupcakes and Yougart_36: 1944205291
+      Cupcakes and Yougart_183: 105420027
+      Cupcakes and Yougart_94: 1830781969
+      Cupcakes and Yougart_191: 1543678848
+      Cupcakes and Yougart_38: -225084788
+      Cupcakes and Yougart_22: -1755718540
+      Cupcakes and Yougart_54: -1997423739
+      Cupcakes and Yougart_60: -2130080819
+      Cupcakes and Yougart_254: 485376978
+      Cupcakes and Yougart_153: 1542740349
+      Cupcakes and Yougart_199: 1959608861
+      Cupcakes and Yougart_173: 374257527
+      Cupcakes and Yougart_127: -1170324485
+      Cupcakes and Yougart_247: 1498482018
+      Cupcakes and Yougart_8: -1621677969
+      Cupcakes and Yougart_233: -110726462
+      Cupcakes and Yougart_157: -14730012
+      Cupcakes and Yougart_221: 2091489663
+      Cupcakes and Yougart_98: -1991688309
+      Cupcakes and Yougart_118: 129101093
+      Cupcakes and Yougart_135: -1231639419
+      Cupcakes and Yougart_180: -85305763
+      Cupcakes and Yougart_59: 935783364
+      Cupcakes and Yougart_144: -1638095572
+      Cupcakes and Yougart_251: 898780916
+      Cupcakes and Yougart_9: -666192565
+      Cupcakes and Yougart_212: 1412192088
+      Cupcakes and Yougart_93: -651573312
+      Cupcakes and Yougart_15: 1757485431
+      Cupcakes and Yougart_101: -1728814133
+      Cupcakes and Yougart_225: 1413789008
+      Cupcakes and Yougart_143: 756043039
+      Cupcakes and Yougart_151: -700421745
+      Cupcakes and Yougart_171: 1065797009
+      Cupcakes and Yougart_248: -1103067704
+      Cupcakes and Yougart_215: -2115210114
+      Cupcakes and Yougart_218: -1335326469
+      Cupcakes and Yougart_88: 258803020
+      Cupcakes and Yougart_243: -1563011265
+      Cupcakes and Yougart_0: 1989680931
+      Cupcakes and Yougart_244: 1809914915
+      Cupcakes and Yougart_28: 1541899200
+      Cupcakes and Yougart_184: 1379463981
+      Cupcakes and Yougart_86: 537179995
+      Cupcakes and Yougart_224: -2122151810
+      Cupcakes and Yougart_41: -1998617294
+      Cupcakes and Yougart_186: -33023142
+      Cupcakes and Yougart_106: 251945659
+      Cupcakes and Yougart_166: 1416831847
+      Cupcakes and Yougart_220: 1528053261
+      Cupcakes and Yougart_92: -764470401
+      Cupcakes and Yougart_75: -1451759409
+      Cupcakes and Yougart_256: 87131767
+      Cupcakes and Yougart_175: 741654590
+      Cupcakes and Yougart_134: 173632078
+      Cupcakes and Yougart_154: -1808353162
+      Cupcakes and Yougart_31: 2051628471
+      Cupcakes and Yougart_236: -2026993745
+      Cupcakes and Yougart_249: -5342139
+      Cupcakes and Yougart_21: 1631739786
+      Cupcakes and Yougart_91: -1731521201
+      Cupcakes and Yougart_168: -88666578
+      Cupcakes and Yougart_226: -32341860
+      Cupcakes and Yougart_78: -873563551
+      Cupcakes and Yougart_187: 1683012647
+      Cupcakes and Yougart_150: -561017818
+      Cupcakes and Yougart_239: 782019995
+      Cupcakes and Yougart_202: -71361444
+      Cupcakes and Yougart_76: 1480050736
+      Cupcakes and Yougart_43: 1959892985
+      Cupcakes and Yougart_57: 1856615334
+      Cupcakes and Yougart_24: -1941132868
+      Cupcakes and Yougart_155: 784389372
+      Cupcakes and Yougart_52: 1120073797
+      Cupcakes and Yougart_66: -310377191
+      Cupcakes and Yougart_116: -1401049093
+      Cupcakes and Yougart_81: -1208050431
+      Cupcakes and Yougart_253: -240491103
+      Cupcakes and Yougart_190: -73649154
+      Cupcakes and Yougart_232: -1485705037
+      Cupcakes and Yougart_61: -1048099120
+      Cupcakes and Yougart_96: 1182207416
+      Cupcakes and Yougart_33: 2096242835
+      Cupcakes and Yougart_152: -821908735
+      Cupcakes and Yougart_2: -1383442272
+      Cupcakes and Yougart_26: 1218706433
+      Cupcakes and Yougart_5: 866762464
+      Cupcakes and Yougart_139: -1729397719
+      Cupcakes and Yougart_51: 2143316438
+      Cupcakes and Yougart_84: 2047527360
+      Cupcakes and Yougart_12: 1253964400
+      Cupcakes and Yougart_122: -1895274048
+      Cupcakes and Yougart_70: -120018092
+      Cupcakes and Yougart_29: -1685291397
+      Cupcakes and Yougart_245: -1654106393
+      Cupcakes and Yougart_117: 531573220
+      Cupcakes and Yougart_126: 1280892965
+      Cupcakes and Yougart_194: -1741128841
+      Cupcakes and Yougart_149: -1256024248
+      Cupcakes and Yougart_230: -991256922
+      Cupcakes and Yougart_181: -1036522599
+      Cupcakes and Yougart_13: -240949940
+      Cupcakes and Yougart_108: -220525654
+      Cupcakes and Yougart_6: -340403173
+      Cupcakes and Yougart_227: 1796920962
+      Cupcakes and Yougart_146: 829621676
+      Cupcakes and Yougart_129: 598694012
+      Cupcakes and Yougart_90: -1869293407
+      Cupcakes and Yougart_7: -1555415551
+      Cupcakes and Yougart_100: 1196896364
+      Cupcakes and Yougart_89: -62134109
+      Cupcakes and Yougart_121: -1822223179
+      Cupcakes and Yougart_47: 1923329544
+      Cupcakes and Yougart_34: -436014199
+      Cupcakes and Yougart_1: -1651900781
+      Cupcakes and Yougart_14: 996717856
+      Cupcakes and Yougart_53: -1839276907
+      Cupcakes and Yougart_63: 1065540600
+      Cupcakes and Yougart_79: 763574883
+      Cupcakes and Yougart_163: 1458704161
+      Cupcakes and Yougart_97: 510908206
+      Cupcakes and Yougart_231: -1319497294
+      Cupcakes and Yougart_113: 2028110115
+      Cupcakes and Yougart_130: 1428311812
+      Cupcakes and Yougart_104: -1615550980
+      Cupcakes and Yougart_111: 2052816852
+      Cupcakes and Yougart_198: 1833246615
+      Cupcakes and Yougart_102: 414282193
+      Cupcakes and Yougart_205: -1410380750
+      Cupcakes and Yougart_211: -1118455652
+      Cupcakes and Yougart_44: -1755509862
+      Cupcakes and Yougart_73: 772979757
+      Cupcakes and Yougart_131: 265060687
+      Cupcakes and Yougart_138: 1961257989
+      Cupcakes and Yougart_246: 878930364
+      Cupcakes and Yougart_105: 785215677
+      Cupcakes and Yougart_49: 436613238
+      Cupcakes and Yougart_109: -228349068
+      Cupcakes and Yougart_195: 2073057301
+      Cupcakes and Yougart_23: -831838821
+      Cupcakes and Yougart_142: 719599538
+      Cupcakes and Yougart_137: 313326485
+      Cupcakes and Yougart_182: -346414935
+      Cupcakes and Yougart_189: 1515126766
+      Cupcakes and Yougart_119: -1900277333
+      Cupcakes and Yougart_62: 54658089
+      Cupcakes and Yougart_223: -782312114
+      Cupcakes and Yougart_188: -779457912
+      Cupcakes and Yougart_56: -126223507
+      Cupcakes and Yougart_200: 264642494
+      Cupcakes and Yougart_85: -1242554876
+      Cupcakes and Yougart_11: -1135967081
+      Cupcakes and Yougart_179: -1581594676
+      Cupcakes and Yougart_128: 1991376515
+      Cupcakes and Yougart_222: 1316215020
+      Cupcakes and Yougart_4: -1365802938
+      Cupcakes and Yougart_145: -4695047
+      Cupcakes and Yougart_123: -691471708
+      Cupcakes and Yougart_77: 1413715723
+      Cupcakes and Yougart_258: -913829928
+      Cupcakes and Yougart_238: -349897880
+      Cupcakes and Yougart_99: -844373681
+      Cupcakes and Yougart_50: 18291671
+      Cupcakes and Yougart_10: -1769743600
+      Cupcakes and Yougart_20: 1027691337
+      Cupcakes and Yougart_120: 663814914
+      Cupcakes and Yougart_16: -1158192419
+      Cupcakes and Yougart_252: -1050627885
+      Cupcakes and Yougart_30: -110522633
+      Cupcakes and Yougart_42: -891863677
+      Cupcakes and Yougart_95: 831819247
+      Cupcakes and Yougart_136: 642065174
+      Cupcakes and Yougart_219: 1746596733
+      Cupcakes and Yougart_35: 415188682
+      Cupcakes and Yougart_193: 1240893865
+      Cupcakes and Yougart_234: 297846659
+      Cupcakes and Yougart_132: -1284299812
+      Cupcakes and Yougart_161: 1809812793
+      Cupcakes and Yougart_176: -238302646
+      Cupcakes and Yougart_3: -1576606882
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

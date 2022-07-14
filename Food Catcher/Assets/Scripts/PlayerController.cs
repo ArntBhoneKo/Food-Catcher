@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     private Rigidbody2D rbp;
     private Vector3 playerPos;
-    [SerializeField] GameManager manager;
 
     void Start() 
     {
@@ -24,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetMouseButton(0))
         {
-            if(!manager.gameOver)
+            if(!FindObjectOfType<GameManager>().gameOver)
             {
                 float mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
             playerPos = this.transform.position;

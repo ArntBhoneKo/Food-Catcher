@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] int playerLives = 3;
-    [SerializeField] int score = 0;
+    public int score = 0;
     [SerializeField] float loadDelay = 1f;
     [SerializeField] float happyTime = 2f;
     public bool gameOver = false;
@@ -74,6 +74,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
         uiManager.WinScreen(false);
         uiManager.LoseScreen(false);
+        uiManager.UpdateScore(score);
         uiManager.ResetHeart();
         timer.ResetStopwatch();
         timer.StartStopwatch(true);
