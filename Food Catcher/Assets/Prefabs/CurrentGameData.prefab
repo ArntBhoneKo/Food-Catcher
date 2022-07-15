@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7964688906242797217
+--- !u!1 &9181218953263625992
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7964688906242797223}
-  - component: {fileID: 7964688906242797222}
+  - component: {fileID: 7790190162417156663}
+  - component: {fileID: 2042302622193901233}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: CurrentGameData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7964688906242797223
+--- !u!4 &7790190162417156663
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7964688906242797217}
+  m_GameObject: {fileID: 9181218953263625992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,23 +32,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7964688906242797222
+--- !u!114 &2042302622193901233
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7964688906242797217}
+  m_GameObject: {fileID: 9181218953263625992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d765e937793a03a49b863d8a1982547e, type: 3}
+  m_Script: {fileID: 11500000, guid: 054031535f05b6542abc0f1bb0a96fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theFoods:
-  - {fileID: 5390296172332521747, guid: a834d98b1f26e7b4e9c4cac7b1d04765, type: 3}
-  - {fileID: 5390296172332521747, guid: d6410589e02c71f4eae70b1f8e8b984d, type: 3}
-  - {fileID: 5390296172332521747, guid: 7bd111c2038a87847a71585775f65da8, type: 3}
-  - {fileID: 5390296172332521747, guid: 0777443f5d405f6409ac4b0f143ca2ec, type: 3}
-  theCountdown: 1
-  maxCountdown: 2
-  minCountdown: 0.5
+  highScore: 0
+  currecy: 0

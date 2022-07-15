@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] UIManager uiManager;
     [SerializeField] Timer timer;
     bool notSadNow = false;
+    bool notAngryNow = false;
     bool buttonpressed = false;
 
     void Start() 
@@ -23,10 +24,11 @@ public class GameManager : MonoBehaviour
 
     private void Update() 
     {
-        if (timer.currentTime <= 0)
+        if (timer.currentTime <= 0 && !gameOver)
         {
             gameOver = true;
-
+            uiManager.MakeSadFace(false);
+            FindObjectOfType<CurrentGameData>().ScoreCheck(score);
             uiManager.WinScreen(true);
         }
         
@@ -43,8 +45,10 @@ public class GameManager : MonoBehaviour
             
             gameOver = true;
 
+            uiManager.MakeAngryFace(true);
             uiManager.UpdateHeart();
             timer.StartStopwatch(false);
+            FindObjectOfType<CurrentGameData>().ScoreCheck(Mathf.RoundToInt(score * 0.75f));
             uiManager.LoseScreen(true);
         }
     }
@@ -53,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         playerLives--;
         uiManager.UpdateHeart();
+        StartCoroutine(AngryTime());
     }
 
     public void ResetLife()
@@ -72,6 +77,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSecondsRealtime(loadDelay);
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex);
+        uiManager.MakeAngryFace(false);
         uiManager.WinScreen(false);
         uiManager.LoseScreen(false);
         uiManager.UpdateScore(score);
@@ -100,5 +106,18 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(happyTime);
         uiManager.MakeSadFace(true);
         notSadNow = false;
+    }
+
+    IEnumerator AngryTime()
+    {
+        if (notAngryNow)
+            yield break;
+    
+        notAngryNow = true;
+        uiManager.MakeAngryFace(true);
+
+        yield return new WaitForSeconds(happyTime);
+        uiManager.MakeAngryFace(false);
+        notAngryNow = false;
     }
 }

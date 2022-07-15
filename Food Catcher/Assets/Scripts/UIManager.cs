@@ -5,6 +5,7 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    [Header("Ingame UI")]
     bool heart1;
     bool heart2;
     bool heart3;
@@ -13,11 +14,19 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject heartImg3;
     [SerializeField] TextMeshProUGUI scoreText;
     public TextMeshProUGUI currentTimeText;
+
+    [Header("Faces")]
     [SerializeField] GameObject sadFace;
-    [SerializeField] GameObject loseScreen;
-    [SerializeField] TextMeshProUGUI loseScore;
+    [SerializeField] GameObject angryFace;
+
+    [Header("Win Lose")]
     [SerializeField] GameObject winScreen;
     [SerializeField] TextMeshProUGUI winScore;
+    [SerializeField] GameObject loseScreen;
+    [SerializeField] TextMeshProUGUI loseScore;
+    [SerializeField] GameObject currentScoreScreen;
+    [SerializeField] TextMeshProUGUI highScore;
+    [SerializeField] TextMeshProUGUI currency;
 
     void Start() 
     {
@@ -73,15 +82,29 @@ public class UIManager : MonoBehaviour
         sadFace.SetActive(sad);
     }
 
-    public void LoseScreen(bool lose)
+    public void MakeAngryFace(bool angry)
     {
-        loseScreen.SetActive(lose);
-        loseScore.text = "You Got " + Mathf.Round(FindObjectOfType<GameManager>().score * 0.75f).ToString();
+        angryFace.SetActive(angry);
     }
 
     public void WinScreen(bool win)
     {
         winScreen.SetActive(win);
-        winScore.text = "You Got" + FindObjectOfType<GameManager>().score.ToString();
+        CurrentScore(win);
+        winScore.text = "You Got " + FindObjectOfType<GameManager>().score.ToString();
+    }
+
+    public void LoseScreen(bool lose)
+    {
+        loseScreen.SetActive(lose);
+        CurrentScore(lose);
+        loseScore.text = "You Got " + Mathf.Round(FindObjectOfType<GameManager>().score * 0.75f).ToString();
+    }
+
+    public void CurrentScore(bool show)
+    {
+        currentScoreScreen.SetActive(show);
+        highScore.text = "HighScore " + FindObjectOfType<CurrentGameData>().highScore.ToString();
+        currency.text = "coin " + FindObjectOfType<CurrentGameData>().currency.ToString();
     }
 }

@@ -223,25 +223,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082765982}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
+      propertyPath: minCountdown
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.data[0]
       value: 
-      objectReference: {fileID: 5390296172332521747, guid: a834d98b1f26e7b4e9c4cac7b1d04765, type: 3}
+      objectReference: {fileID: 5390296172332521747, guid: 0777443f5d405f6409ac4b0f143ca2ec, type: 3}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.data[1]
       value: 
-      objectReference: {fileID: 5390296172332521747, guid: d6410589e02c71f4eae70b1f8e8b984d, type: 3}
+      objectReference: {fileID: 5390296172332521747, guid: a9ec28adb3b373648a5c850cdeebd28f, type: 3}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.data[2]
       value: 
-      objectReference: {fileID: 5390296172332521747, guid: 7bd111c2038a87847a71585775f65da8, type: 3}
+      objectReference: {fileID: 5390296172332521747, guid: c99654ccd522b544999fe099e403c2f1, type: 3}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.data[3]
       value: 
-      objectReference: {fileID: 5390296172332521747, guid: 0777443f5d405f6409ac4b0f143ca2ec, type: 3}
+      objectReference: {fileID: 5390296172332521747, guid: 2003b898072233e429ec7541704fe6ee, type: 3}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.data[4]
       value: 
@@ -419,8 +423,8 @@ SpriteRenderer:
   m_SortingLayerID: 2021686501
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7cce5c3b3777b0644bb1c0a8fd121642, type: 3}
-  m_Color: {r: 1, g: 0.6615773, b: 0.38113207, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4365ebead274a124d8cf9552b8cff53d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

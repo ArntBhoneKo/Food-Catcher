@@ -219,33 +219,9 @@ PrefabInstance:
       value: Spawner (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: manager
-      value: 
-      objectReference: {fileID: 1082765982}
-    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: theFoods.Array.size
-      value: 4
+      propertyPath: minCountdown
+      value: 0.7
       objectReference: {fileID: 0}
-    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: theFoods.Array.data[0]
-      value: 
-      objectReference: {fileID: 5390296172332521747, guid: a834d98b1f26e7b4e9c4cac7b1d04765, type: 3}
-    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: theFoods.Array.data[1]
-      value: 
-      objectReference: {fileID: 5390296172332521747, guid: d6410589e02c71f4eae70b1f8e8b984d, type: 3}
-    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: theFoods.Array.data[2]
-      value: 
-      objectReference: {fileID: 5390296172332521747, guid: 7bd111c2038a87847a71585775f65da8, type: 3}
-    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: theFoods.Array.data[3]
-      value: 
-      objectReference: {fileID: 5390296172332521747, guid: 0777443f5d405f6409ac4b0f143ca2ec, type: 3}
-    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
-      propertyPath: theFoods.Array.data[4]
-      value: 
-      objectReference: {fileID: 5390296172332521747, guid: 0777443f5d405f6409ac4b0f143ca2ec, type: 3}
     - target: {fileID: 7964688906242797223, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -485,9 +461,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1082765982}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
+      propertyPath: maxCountdown
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
+      propertyPath: minCountdown
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.size
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
+      propertyPath: theFoods.Array.data[0]
+      value: 
+      objectReference: {fileID: 5390296172332521747, guid: 6cf4ad319ecd40340914f1e9b5711e80, type: 3}
+    - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
+      propertyPath: theFoods.Array.data[1]
+      value: 
+      objectReference: {fileID: 5390296172332521747, guid: b3b1cef61bc2ba248b5ae605ad30d47d, type: 3}
     - target: {fileID: 7964688906242797222, guid: bc2baf887259e2749aad5a66f84a0053, type: 3}
       propertyPath: theFoods.Array.data[2]
       value: 

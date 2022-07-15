@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: dc5e0978bc9a55a41ab5aa48360bb485
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NonFood1_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2258
+        width: 398
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 151.68057, y: -33.950928}
+        - {x: 82.95459, y: -67.857666}
+        - {x: 33.406097, y: -46.36035}
+        - {x: -0.59768677, y: -6.6540527}
+        - {x: -28.683624, y: -49.0083}
+        - {x: -86.93742, y: -68.64038}
+        - {x: -142.43054, y: -42.611816}
+        - {x: -178.47588, y: 0.4338379}
+        - {x: -188.66226, y: 38.126465}
+        - {x: -101.37857, y: 57.36743}
+        - {x: -2.5548706, y: 33.455322}
+        - {x: 94.56534, y: 53.291748}
+        - {x: 180.52179, y: 38.929688}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e692f9a618d6f4e8aae976ab0d322b
+      internalID: -736451988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_3
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2156
+        width: 341
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 19.381836, y: 14.21582}
+        - {x: 58.126587, y: 13.563721}
+        - {x: 124.77368, y: 70.73364}
+        - {x: 154.88135, y: 51.791016}
+        - {x: 117.29431, y: -20.232666}
+        - {x: 148.69714, y: -113.72168}
+        - {x: 94.798096, y: -129.69409}
+        - {x: 44.121094, y: -59.753418}
+        - {x: 13.723389, y: -59.69287}
+        - {x: -56.66577, y: -137.97607}
+        - {x: -109.07062, y: -107.59448}
+        - {x: -57.114075, y: -2.074463}
+        - {x: -151.23541, y: 40.33374}
+        - {x: -150.36066, y: 81.44629}
+        - {x: -41.01886, y: 146.17676}
+        - {x: 11.465088, y: 133.93018}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59aa04d29a6ad34fa5036ffe60bf8c5
+      internalID: 464213024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1827
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 109.99173, y: -3.8881836}
+        - {x: 43.978973, y: -26.99292}
+        - {x: 57.86264, y: -115.28613}
+        - {x: -47.169403, y: -115.294556}
+        - {x: -41.11615, y: -25.660522}
+        - {x: -113.59063, y: -1.97229}
+        - {x: -123.49928, y: 52.701294}
+        - {x: -38.26642, y: 120.00171}
+        - {x: 26.917236, y: 117.2522}
+        - {x: 124.24768, y: 48.302246}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4bdeb4159b64b4aa048c90b1a8823c
+      internalID: -1597128805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_5
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1811
+        width: 250
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -74.648865, y: -131.16284}
+        - {x: -118.558655, y: -29.93872}
+        - {x: -87.72333, y: 4.6712646}
+        - {x: -85.86157, y: 107.76929}
+        - {x: 48.407654, y: 141.89478}
+        - {x: 81.161194, y: 119.27734}
+        - {x: 71.95807, y: -2.3566895}
+        - {x: 107.41553, y: -7.8049316}
+        - {x: 113.47009, y: -44.256104}
+        - {x: 71.808044, y: -131.65039}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470b96727e86d024a8524792725075d5
+      internalID: -1788754194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2225
+        width: 282
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 107.342896, y: -115.47925}
+        - {x: 2.5789185, y: -114.745605}
+        - {x: 1.1987915, y: -61.969482}
+        - {x: -75.90521, y: 17.458008}
+        - {x: -114.05585, y: -1.7929688}
+        - {x: -135.13196, y: 21.983643}
+        - {x: -111.692444, y: 53.805664}
+        - {x: -129.23694, y: 95.33423}
+        - {x: -96.29755, y: 114.416504}
+        - {x: 139.138, y: -93.48511}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d385aa670cfc248bcac3ff1a4f7133
+      internalID: 1429311761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_6
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1800
+        width: 363
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -174.37323, y: -105.97534}
+        - {x: -174.37317, y: -74.82947}
+        - {x: -38.715393, y: 16.53186}
+        - {x: -29.757751, y: 108.33435}
+        - {x: 31.168823, y: 109.092285}
+        - {x: 44.9198, y: 8.467529}
+        - {x: 172.25891, y: -75.54541}
+        - {x: 173.07678, y: -103.20679}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7910aa908e56844997b4308afd9c95
+      internalID: 583207457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1434
+        width: 324
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 76.09448, y: -109.88391}
+        - {x: 16.782043, y: -109.975586}
+        - {x: -146.34372, y: -15.04834}
+        - {x: -138.10255, y: 67.91272}
+        - {x: -81.8129, y: 114.848145}
+        - {x: -3.456543, y: 77.91089}
+        - {x: 27.270462, y: 80.54932}
+        - {x: 80.38388, y: 17.434082}
+        - {x: 138.39484, y: 4.30542}
+        - {x: 150.88815, y: -61.748413}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11384d290255e35408586fae0a2caca3
+      internalID: -334559067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1391
+        width: 364
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 162.57776, y: -84.097534}
+        - {x: -1.5534058, y: -121.79773}
+        - {x: -161.11783, y: -84.07239}
+        - {x: -177.74332, y: -38.362427}
+        - {x: -114.35828, y: 17.186646}
+        - {x: -80.88922, y: 116.775635}
+        - {x: 99.10516, y: 109.06152}
+        - {x: 122.13049, y: 2.8704834}
+        - {x: 175.38849, y: -46.076294}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063842f9207536d4c851a09282520632
+      internalID: 471410006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NonFood1_9
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1276
+        width: 314
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 132.50366, y: -79.61157}
+        - {x: 73.93591, y: -166.69092}
+        - {x: -83.95215, y: -161.86914}
+        - {x: -105.86328, y: -103.60742}
+        - {x: -138.58289, y: 28.30127}
+        - {x: -114.85455, y: 152.23499}
+        - {x: -28.211426, y: 158.77417}
+        - {x: -34.891724, y: -2.156372}
+        - {x: 85.688965, y: -42.6239}
+        - {x: 130.36194, y: -8.790405}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a28acd6ab946d74aaa1f59b212e3ffc
+      internalID: -1174402491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NonFood1_131: 1356678945
+      NonFood1_13: 292245690
+      NonFood1_194: -765355666
+      NonFood1_16: -146895078
+      NonFood1_23: -969234270
+      NonFood1_87: -1118485271
+      NonFood1_98: 958775410
+      NonFood1_124: -259812086
+      NonFood1_40: 1032473731
+      NonFood1_166: -2075118436
+      NonFood1_2: 1429311761
+      NonFood1_170: 194172673
+      NonFood1_86: -1575521030
+      NonFood1_107: 828516745
+      NonFood1_147: 2075652656
+      NonFood1_103: -583885113
+      NonFood1_58: -1977140945
+      NonFood1_73: -1963915599
+      NonFood1_179: 667226740
+      NonFood1_122: 967539408
+      NonFood1_157: -119798915
+      NonFood1_119: 269286459
+      NonFood1_169: 1441112150
+      NonFood1_183: 473827577
+      NonFood1_160: 1996859869
+      NonFood1_34: 310741274
+      NonFood1_94: 1176281849
+      NonFood1_164: -284560283
+      NonFood1_50: 953703902
+      NonFood1_4: -1597128805
+      NonFood1_111: 1711913505
+      NonFood1_167: 1608847555
+      NonFood1_133: -1933626329
+      NonFood1_93: -933160470
+      NonFood1_6: 583207457
+      NonFood1_115: 440215109
+      NonFood1_51: -1588771821
+      NonFood1_81: 1914875423
+      NonFood1_43: 1247515524
+      NonFood1_63: -1830548360
+      NonFood1_88: -1808525267
+      NonFood1_168: 139604282
+      NonFood1_159: -710517972
+      NonFood1_37: 1956617562
+      NonFood1_60: -2064392755
+      NonFood1_129: 1987309679
+      NonFood1_186: 2012350646
+      NonFood1_158: 499221708
+      NonFood1_35: -1228419885
+      NonFood1_193: -516369881
+      NonFood1_134: -1468713413
+      NonFood1_12: 1427898057
+      NonFood1_46: 1460831641
+      NonFood1_10: -2020300117
+      NonFood1_185: 1936052658
+      NonFood1_184: -1997288710
+      NonFood1_101: 1777690698
+      NonFood1_80: -174674839
+      NonFood1_64: -1456513309
+      NonFood1_145: 675498844
+      NonFood1_1: -736451988
+      NonFood1_90: 713713828
+      NonFood1_127: -1378183061
+      NonFood1_24: 1695154730
+      NonFood1_52: -1701891010
+      NonFood1_31: -890370805
+      NonFood1_165: -2133422524
+      NonFood1_59: 631194646
+      NonFood1_91: 1768915535
+      NonFood1_121: -248296075
+      NonFood1_106: 74603996
+      NonFood1_17: -1486554945
+      NonFood1_53: -16850164
+      NonFood1_136: 1281958878
+      NonFood1_192: 1627247613
+      NonFood1_102: 216533964
+      NonFood1_18: 1522502680
+      NonFood1_0: -638544696
+      NonFood1_42: 1077571443
+      NonFood1_75: -1119350062
+      NonFood1_112: -380273426
+      NonFood1_171: -1880562544
+      NonFood1_172: -1540999401
+      NonFood1_118: 1667323204
+      NonFood1_174: -1599230939
+      NonFood1_20: -195933105
+      NonFood1_177: -411191323
+      NonFood1_44: -1933521129
+      NonFood1_71: -973030441
+      NonFood1_72: -2048555560
+      NonFood1_153: 1162168655
+      NonFood1_142: -842590584
+      NonFood1_146: -136643760
+      NonFood1_104: 1396463020
+      NonFood1_137: -1513060177
+      NonFood1_176: 2080864809
+      NonFood1_114: -1863326343
+      NonFood1_41: 660429785
+      NonFood1_69: -1650957961
+      NonFood1_178: 730682181
+      NonFood1_109: 456100967
+      NonFood1_3: 464213024
+      NonFood1_11: 634406850
+      NonFood1_14: -625546218
+      NonFood1_144: 163345732
+      NonFood1_85: -1560821687
+      NonFood1_79: 1835505556
+      NonFood1_70: 1948051167
+      NonFood1_97: 1983387180
+      NonFood1_156: -621873859
+      NonFood1_128: 420057027
+      NonFood1_190: 1536749256
+      NonFood1_66: -344721935
+      NonFood1_26: 2060664767
+      NonFood1_19: 575934177
+      NonFood1_32: -1987388537
+      NonFood1_28: -1654813574
+      NonFood1_9: -1174402491
+      NonFood1_138: 229532765
+      NonFood1_152: -900566060
+      NonFood1_78: -1668248898
+      NonFood1_45: 1913648945
+      NonFood1_7: -334559067
+      NonFood1_125: 478280138
+      NonFood1_49: 779019080
+      NonFood1_130: -826067521
+      NonFood1_120: -561556064
+      NonFood1_55: -375801551
+      NonFood1_25: 285319241
+      NonFood1_89: -258333026
+      NonFood1_92: -1632144027
+      NonFood1_61: -198830323
+      NonFood1_140: 1303808274
+      NonFood1_95: -1681924045
+      NonFood1_8: 471410006
+      NonFood1_36: -11700990
+      NonFood1_188: -1696598117
+      NonFood1_126: 14134921
+      NonFood1_181: 1572907213
+      NonFood1_21: 1650907192
+      NonFood1_47: 6605293
+      NonFood1_123: 1820132703
+      NonFood1_151: -1317040180
+      NonFood1_83: 1256070993
+      NonFood1_149: -1200999123
+      NonFood1_82: 1419691838
+      NonFood1_116: 1316369440
+      NonFood1_162: 685481036
+      NonFood1_108: 1758107469
+      NonFood1_38: 1164995059
+      NonFood1_150: 650636372
+      NonFood1_182: -918171716
+      NonFood1_187: 994925664
+      NonFood1_155: 1824020706
+      NonFood1_76: 1493861074
+      NonFood1_180: -1445573624
+      NonFood1_29: -912356118
+      NonFood1_110: -1097871869
+      NonFood1_135: -284988426
+      NonFood1_191: -1373168290
+      NonFood1_105: 582232457
+      NonFood1_148: 327963174
+      NonFood1_30: 869939744
+      NonFood1_22: 910722434
+      NonFood1_68: 1491411115
+      NonFood1_5: -1788754194
+      NonFood1_27: 2055997579
+      NonFood1_132: -1579875966
+      NonFood1_96: -1449144334
+      NonFood1_99: -684857343
+      NonFood1_141: 683290007
+      NonFood1_113: 1956758772
+      NonFood1_175: -1417056016
+      NonFood1_173: 1830659790
+      NonFood1_117: 1680447124
+      NonFood1_48: -1121384333
+      NonFood1_65: -191261106
+      NonFood1_84: 505165517
+      NonFood1_154: -290403893
+      NonFood1_15: -1913125017
+      NonFood1_74: 1800845624
+      NonFood1_100: 816705894
+      NonFood1_189: -2015964284
+      NonFood1_62: 1175583036
+      NonFood1_77: 1327137063
+      NonFood1_143: 1919571249
+      NonFood1_33: 337124984
+      NonFood1_39: 1505546676
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
