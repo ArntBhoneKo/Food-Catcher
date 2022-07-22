@@ -1,0 +1,34 @@
+{
+    "name": "TestController",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e97c8527-97b7-44b9-b3bb-e50459464b4f",
+            "actions": [
+                {
+                    "name": "TouchPoint",
+                    "type": "Value",
+                    "id": "324f8782-77ee-4170-998f-87707f686d53",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5440d030-fb5a-46a1-b3a4-a92d9c1801a1",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPoint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

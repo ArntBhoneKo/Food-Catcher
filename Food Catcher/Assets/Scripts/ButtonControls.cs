@@ -10,17 +10,17 @@ public class ButtonControls : MonoBehaviour
 
     public void OpenLevelMenu()
     {
-        SceneManager.LoadScene(1);
+        StartCoroutine(LoadLevelFromMenu(1));
     }
 
     public void OpenShop()
     {
-        SceneManager.LoadScene(2);
+        StartCoroutine(LoadLevelFromMenu(2));
     }
 
     public void CloseOther()
     {
-        SceneManager.LoadScene(0);
+        StartCoroutine(LoadLevelFromMenu(0));
     }
 
     public void OpenSettingMenu()
@@ -63,7 +63,52 @@ public class ButtonControls : MonoBehaviour
 
     IEnumerator LoadLevelFromMenu(int level)
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(1);
         SceneManager.LoadScene(level); 
+    }
+
+    public void NextPlate()
+    {
+        if((FindObjectOfType<CurrentGameData>().currentPlate + 1) < FindObjectOfType<PlateManager>().plates.Length)
+        {
+            FindObjectOfType<CurrentGameData>().currentPlate++;
+        }
+        else
+        {
+            FindObjectOfType<CurrentGameData>().currentPlate = 0;
+        }
+
+        FindObjectOfType<ShopUIManager>().CheckOwnPlate();
+    }
+
+    public void PervPlate()
+    {
+        if(FindObjectOfType<CurrentGameData>().currentPlate != 0)
+        {
+            FindObjectOfType<CurrentGameData>().currentPlate--;
+        }
+        else
+        {
+            FindObjectOfType<CurrentGameData>().currentPlate = FindObjectOfType<PlateManager>().plates.Length - 1;
+        }
+
+        FindObjectOfType<ShopUIManager>().CheckOwnPlate();
+    }
+
+    public void BuyPlate()
+    {
+        bool bought = FindObjectOfType<CurrentGameData>().BuyPlate(FindObjectOfType<PlateManager>().plateCost[FindObjectOfType<CurrentGameData>().currentPlate]);
+
+        if(!bought)
+        {
+            FindObjectOfType<ShopUIManager>().NeedMoreMoney();
+        }
+        FindObjectOfType<ShopUIManager>().CheckOwnPlate();
+    }
+
+    public void SelectPlate()
+    {
+        FindObjectOfType<CurrentGameData>().selectedPlate = FindObjectOfType<CurrentGameData>().currentPlate;
+        FindObjectOfType<ShopUIManager>().CheckOwnPlate();
     }
 }

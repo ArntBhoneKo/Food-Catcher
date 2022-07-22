@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -20,20 +21,17 @@ public class PlayerController : MonoBehaviour
 
     void TouchMove()
     {
-
-        if(Input.GetMouseButton(0))
+        if(FindObjectOfType<GameManager>().gameOver)
         {
-            if(!FindObjectOfType<GameManager>().gameOver)
-            {
-                float mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition).x;
-            playerPos = this.transform.position;
-            rbp.velocity = new Vector2((mousePos - playerPos.x) * moveSpeed, 0);
-            }
-        }
-        else
-        {
-            rbp.velocity = new Vector2(0, 0);
+            return;
         }
 
+        Vector2 touchPosition = Touchscreen.current.primaryTouch.position.ReadValue();
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(touchPosition);
+
+        playerPos = rbp.transform.position;
+        rbp.velocity = new Vector2((worldPosition.x - playerPos.x) * moveSpeed, 0);
+        
     }
+
 }

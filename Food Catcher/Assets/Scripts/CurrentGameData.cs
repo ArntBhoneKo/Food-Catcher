@@ -6,6 +6,9 @@ public class CurrentGameData : MonoBehaviour, IDataPersistence
 {
     public int highScore = 0;
     public int currency = 0;
+    public int currentPlate = 0;
+    public int selectedPlate = 0;
+    public bool[] plateOwn;
 
     private void Awake() 
     {
@@ -36,18 +39,32 @@ public class CurrentGameData : MonoBehaviour, IDataPersistence
     {
         this.currency = data.currency;
         this.highScore = data.highScore;
+        this.plateOwn = data.plateOwn;
+        this.selectedPlate = data.selectedPlate;
     }
 
     public void SaveData(ref GameData data)
     {
         data.currency = this.currency;
         data.highScore = this.highScore;
+        data.plateOwn = this.plateOwn;
+        data.selectedPlate = this.selectedPlate;
     }
 
-    public void TakeCurrency(int amount)
+    public bool BuyPlate(int amount)
     {
-        currency -= amount;
-        DataPersistenceManager.instance.SaveGame();
+        if(currency > amount)
+        {
+            currency -= amount;
+            plateOwn[currentPlate] = true;
+            DataPersistenceManager.instance.SaveGame();
+
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 }
 
