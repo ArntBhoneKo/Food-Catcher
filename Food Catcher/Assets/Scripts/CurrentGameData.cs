@@ -66,5 +66,12 @@ public class CurrentGameData : MonoBehaviour, IDataPersistence
             return false;
         }
     }
+
+    public void SelectedPlate()
+    {
+        selectedPlate = currentPlate;
+
+        DataPersistenceManager.instance.SaveGame();
+    }
 }
 

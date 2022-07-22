@@ -11,6 +11,11 @@ public class ShopUIManager : MonoBehaviour
     [SerializeField] GameObject cannotBuy;
     [SerializeField] GameObject cannotFace;
 
+    private void Start() 
+    {
+        CheckOwnPlate();
+    }
+
     public void CheckOwnPlate()
     {
         if(FindObjectOfType<CurrentGameData>().plateOwn[FindObjectOfType<CurrentGameData>().currentPlate])

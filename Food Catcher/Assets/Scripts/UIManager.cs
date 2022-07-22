@@ -105,6 +105,6 @@ public class UIManager : MonoBehaviour
     {
         currentScoreScreen.SetActive(show);
         highScore.text = "HighScore " + FindObjectOfType<CurrentGameData>().highScore.ToString();
-        currency.text = "coin " + FindObjectOfType<CurrentGameData>().currency.ToString();
+        currency.text = FindObjectOfType<CurrentGameData>().currency.ToString();
     }
 }

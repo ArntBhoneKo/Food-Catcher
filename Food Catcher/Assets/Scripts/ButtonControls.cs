@@ -7,6 +7,12 @@ public class ButtonControls : MonoBehaviour
 {
     public GameObject setting;
     public GameObject mainMenu;
+    int platesAmount;
+
+    private void Start() 
+    {
+        platesAmount = FindObjectOfType<PlateManager>().plates.Length;
+    }
 
     public void OpenLevelMenu()
     {
@@ -69,13 +75,13 @@ public class ButtonControls : MonoBehaviour
 
     public void NextPlate()
     {
-        if((FindObjectOfType<CurrentGameData>().currentPlate + 1) < FindObjectOfType<PlateManager>().plates.Length)
+        if((FindObjectOfType<CurrentGameData>().currentPlate +1) == platesAmount)
         {
-            FindObjectOfType<CurrentGameData>().currentPlate++;
+            FindObjectOfType<CurrentGameData>().currentPlate = 0;
         }
         else
         {
-            FindObjectOfType<CurrentGameData>().currentPlate = 0;
+            FindObjectOfType<CurrentGameData>().currentPlate++;
         }
 
         FindObjectOfType<ShopUIManager>().CheckOwnPlate();
@@ -83,13 +89,13 @@ public class ButtonControls : MonoBehaviour
 
     public void PervPlate()
     {
-        if(FindObjectOfType<CurrentGameData>().currentPlate != 0)
+        if(FindObjectOfType<CurrentGameData>().currentPlate == 0)
         {
-            FindObjectOfType<CurrentGameData>().currentPlate--;
+            FindObjectOfType<CurrentGameData>().currentPlate = platesAmount - 1;
         }
         else
         {
-            FindObjectOfType<CurrentGameData>().currentPlate = FindObjectOfType<PlateManager>().plates.Length - 1;
+            FindObjectOfType<CurrentGameData>().currentPlate--;
         }
 
         FindObjectOfType<ShopUIManager>().CheckOwnPlate();
@@ -104,11 +110,12 @@ public class ButtonControls : MonoBehaviour
             FindObjectOfType<ShopUIManager>().NeedMoreMoney();
         }
         FindObjectOfType<ShopUIManager>().CheckOwnPlate();
+        FindObjectOfType<MenuCurrencyAndHighscore>().UpdateCurrency();
     }
 
     public void SelectPlate()
     {
-        FindObjectOfType<CurrentGameData>().selectedPlate = FindObjectOfType<CurrentGameData>().currentPlate;
+        FindObjectOfType<CurrentGameData>().SelectedPlate();
         FindObjectOfType<ShopUIManager>().CheckOwnPlate();
     }
 }

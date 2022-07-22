@@ -47,4 +47,5 @@ MonoBehaviour:
   highScore: 0
   currency: 0
   currentPlate: 0
-  plateOwn: 0100
+  selectedPlate: 0
+  plateOwn: 010000

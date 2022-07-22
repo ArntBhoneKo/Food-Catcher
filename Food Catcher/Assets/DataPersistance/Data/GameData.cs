@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class GameData
 {
-    private const int V = 2;
+    private const int V = 3;
     public int currency;
     public int highScore;
     public bool[] plateOwn;

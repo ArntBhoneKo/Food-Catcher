@@ -16,8 +16,17 @@ public class MenuCurrencyAndHighscore : MonoBehaviour
     IEnumerator LoadScore()
     {
         yield return new WaitForSeconds(0.01f);
-        highScore.text = "HighScore " + FindObjectOfType<CurrentGameData>().highScore.ToString();
-        currency.text = "Coin " + FindObjectOfType<CurrentGameData>().currency.ToString();
+        currency.text = FindObjectOfType<CurrentGameData>().currency.ToString();
+
+        if (highScore != null)
+        {
+            highScore.text = "HighScore " + FindObjectOfType<CurrentGameData>().highScore.ToString();
+        }
+        
     }
 
+    public void UpdateCurrency() 
+    {
+        currency.text = FindObjectOfType<CurrentGameData>().currency.ToString();
+    }
 }
